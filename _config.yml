@@ -1,0 +1,78 @@
+# Customize page from here
+title: Will Mitchell
+description: Software Engineer
+
+lead_name: Will Mitchell
+lead_subtitle: Software Engineer
+lead_backgroud_img_url: "assets/images/lead-bg.jpg"
+resume_download_link: "assets/resume.pdf"
+
+form_email: william.m95@gmail.com
+copyright_name: Your Copyright here
+
+about_me: >
+    Hello! My name is Will Mitchell, and I am currently a 4th year Computer Science student at Georgia Tech. In my free time I work on coding projects, game, browse reddit, and referee high school football. If you are interested in contacting me about any of my projects or job offers, feel free to shoot me an email.
+
+experiences:
+  - employer_name: Nead Werx
+    title: Middleware Engineer Co-op
+    description: Worked as a middleware engineer and did projects on production code for a variety of retail clients. Led full stack client requested projects. Helped assist on the rotating bug duty to enact timely fixes to the production site. Also planned and executed a cyber security education initiative and excercise enterprise wide.
+    dates: Summer 2016 – Present
+  - employer_name: Georgia Tech Office of Information Technology
+    title: Cyber Security Student Assistant
+    description: Evaluated emerging security threats to the campus and drafted reports on prevention. Dealt with daily threats to the network to isolate and contain infected systems. Worked to expand and plan the campus wide switch to Duo Factor authentication. Learned computer forensic techniques for combating cyber crime.
+    dates: Spring 2016 – Winter 2016
+
+educations:
+  - school_name: Georgia Institute of Technology
+    dates: Fall 2014 - Present
+    title: Bachelors of Science in Computer Science
+    description: Focusing on Devices and Information Internetworks
+
+projects:
+  - name: HouseManager
+    url: https://github.com/ChangedNameTo/HouseManager
+    img_url: assets/images/housemanager.png
+    description: Self-educated in Ruby on Rails to create a web app that could handle all aspects of running a fraternity. Managed the data for 100 fraternity members and constantly updated it with bug fixes and features. Wrote tools allowing for easier testing and development of code to my production environment.
+  - name: Netcode Simulator
+    url: https://github.com/ChangedNameTo/Netcode-Simulator
+    img_url: assets/images/project.jpg
+    description: Used python to write a simulation of a video game server managing packets and game states. Allowed for multiple different user settings for accurate simulation.
+  - name: Dotfiles
+    url: https://github.com/ChangedNameTo/Dotfiles
+    img_url: assets/images/vim.png
+    description: Compiled all commonly used dotfiles into a repo for easy distribution when changing machines. Also wrote a bash script to auto install zsh and all of my favorite Vim plugins.
+  - name: Reddit Parser
+    url: https://github.com/ChangedNameTo/Reddit-Parser
+    img_url: assets/images/reddit_parse.png
+    description: Tracked reddit post growth over time to serve as a visual aid for a training session I taught. Was able to decrease the runtime by a factor of four through utilization of multithreading.
+  - name: r/WorldPowers Flair Bot
+    url: https://github.com/ChangedNameTo/rWorldPowersFlairBot
+    img_url: assets/images/un.jpg
+    description: Ran a bot on my server that updated the flag flairs for the subreddit /r/worldpowers. Selft taught cron to do this.
+
+
+skills:
+  - JavaScript/jQuery
+  - Python
+  - PHP
+  - Node.js
+  - Ruby on Rails
+  - RESTful API's
+  - pSQL
+  - Vim
+  - Photoshop
+  - Multiple CI environments
+
+
+social_buttons:
+  - iconkey: github
+    url: https://github.com/ChangedNameTo
+
+#    Jekyll Config & Plugins     #
+markdown: kramdown
+permalink: pretty
+gems:
+ - jekyll-coffeescript
+sass:
+  style: compressed
